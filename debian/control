@@ -10,6 +10,7 @@ XB-Maemo-Display-Name: Maemo Leste System Packages (Base)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
 Priority: important
+Section: metapackages
 Essential: yes
 Depends:
  maemo-keyring,
@@ -80,7 +81,6 @@ Package: hildon-meta-n900
 XB-Maemo-Display-Name: Maemo Leste System Packages (N900)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: n900
 Depends:
  hildon-meta | hildon-meta-core,
  linux-image-omap,
@@ -130,7 +130,6 @@ Package: hildon-meta-n950
 XB-Maemo-Display-Name: Maemo Leste System Packages (N950)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: n950
 Depends:
  hildon-meta | hildon-meta-core,
  firmware-ti-connectivity,
@@ -168,7 +167,6 @@ Package: hildon-meta-n9
 XB-Maemo-Display-Name: Maemo Leste System Packages (N9)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: n9
 Depends:
  hildon-meta | hildon-meta-core,
  firmware-ti-connectivity,
@@ -207,7 +205,6 @@ Package: hildon-meta-droid4
 XB-Maemo-Display-Name: Maemo Leste System Packages (Droid 4)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: droid4
 Depends:
  hildon-meta | hildon-meta-core,
  linux-image-omap,
@@ -261,7 +258,6 @@ Package: hildon-meta-droid3
 XB-Maemo-Display-Name: Maemo Leste System Packages (Droid 3)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: droid3
 Depends:
  hildon-meta | hildon-meta-core,
  linux-image-omap,
@@ -315,7 +311,6 @@ Package: hildon-meta-bionic
 XB-Maemo-Display-Name: Maemo Leste System Packages (Bionic)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: bionic
 Depends:
  hildon-meta | hildon-meta-core,
  linux-image-omap,
@@ -370,7 +365,6 @@ Package: hildon-meta-xt910
 XB-Maemo-Display-Name: Maemo Leste System Packages (XT910)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: razr
 Depends:
  hildon-meta | hildon-meta-core,
  linux-image-omap,
@@ -425,7 +419,6 @@ Package: hildon-meta-xt912
 XB-Maemo-Display-Name: Maemo Leste System Packages (XT912)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: razr
 Depends:
  hildon-meta | hildon-meta-core,
  linux-image-omap,
@@ -480,7 +473,6 @@ Package: hildon-meta-mz617
 XB-Maemo-Display-Name: Maemo Leste System Packages (MZ617)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: xyboard
 Depends:
  hildon-meta | hildon-meta-core,
  linux-image-omap,
@@ -535,7 +527,6 @@ Package: hildon-meta-pinephone
 XB-Maemo-Display-Name: Maemo Leste System Packages (Pinephone)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: pinephone
 Depends:
  hildon-meta | hildon-meta-core,
  linux-image-pine64,
@@ -577,7 +568,6 @@ Package: hildon-meta-pinetab
 XB-Maemo-Display-Name: Maemo Leste System Packages (Pinetab)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: pinephone
 Depends:
  hildon-meta | hildon-meta-core,
  linux-image-pine64,
@@ -615,7 +605,6 @@ Package: hildon-meta-pocophone-f1
 XB-Maemo-Display-Name: Maemo Leste System Packages (Pocophone F1)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: pocophone-f1
 Depends:
  hildon-meta | hildon-meta-core,
  linux-image-pine64,
@@ -654,7 +643,6 @@ Package: hildon-meta-raspberrypi
 XB-Maemo-Display-Name: Maemo Leste System Packages (Raspberry Pi)
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
-Section: raspberrypi
 Depends:
  hildon-meta | hildon-meta-core,
 Description: Metapackage for installing hildon-desktop and its deps. Raspberry Pi 3.

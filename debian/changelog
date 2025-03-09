@@ -1,3 +1,9 @@
+hildon-meta-core (2.15) unstable; urgency=medium
+
+  * Fix metapackages Section: field
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Sun, 09 Mar 2025 16:50:19 +0200
+
 hildon-meta-core (2.14) unstable; urgency=medium
 
   * Initial release
