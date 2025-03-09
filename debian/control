@@ -12,7 +12,7 @@ Section: metapackages
 Essential: yes
 Depends:
  maemo-keyring,
- python-is-python2,
+ python-is-python3,
  xserver-xorg,
  leste-config-common,
  hildon-base,
