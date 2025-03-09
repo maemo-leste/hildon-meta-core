@@ -6,8 +6,6 @@ Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.3.0
 
 Package: hildon-meta-core
-XB-Maemo-Display-Name: Maemo Leste System Packages (Base)
-XB-Maemo-Flags: reboot, system-update
 Architecture: all
 Priority: important
 Section: metapackages
@@ -51,31 +49,6 @@ Depends:
  charge-mode,
  policykit-1-hildon,
 Description: Metapackage for installing hildon-desktop core and some of its dependencies.
-XB-Maemo-Icon-26:
- iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAD00lEQVRo3u3Z
- bWgVVBjA8V9rZhhY+LY+9AaSEvbJXqTUysyXyGiZb5kZlKjUoVTIIjIwUKIP
- lvYUmEGBopG5ZmkuUSKtD4ESSIoRghpUS83EHCWr9cFjXS66zbm7XWMPHBjP
- 2Xnu8+fc5+1cuqRLuuSCloua20wp9cCVef0WEXsuKIAimIEYjcvRCz/gG+yI
- iN/LHuAMQEMxEmPQG19jG76MiO/KHqAIpi/G4sEMdCLDfIbNEXGgrAHOEDdj
- 8AjuRQ98j7X4NCK+KmuAM8A8gMcyFPyINXg/InaUNUARzNWYlVefrN6NFVgZ
- Eb+WNUAByKWYhOdxQ1Y34D0sO9cE0OEARTDT8CIGFqhXYVFE7C17gIIbmZtB
- emR1I97Egog4XtYABSADcnAPLlDXY1ZErC97gIKstSrXk0J5A/Mj4o+OTqMj
- Mf90L4WlEVFzer+xtuomLMQ1ef+1pzc/tL6iomJzrvKFsh1jI6KhUFlRQufH
- YzO+xTLsxJqU0uzs/MzcfuzHS7lyr142et1UTMGRIpPDUZdv6V+pLOEFLMlB
- uLgAaiO27Hln1G3smoyHK6vr1+bt2sbaqp+wJCJWpZRW5FRbDPEuJpf0BlJK
- FbgWdYX6iNh633W/PDOgz67pWIDujbVVTacXAn0ba6v642z1YFJKaURJASLi
- 7/xnz+Ig3bi/3xVNTRWr8QQ24OaCNRx3VFbX70O3Zj7iuZLHQM4mi1NKvQsy
- zHIsfHl79TEcx8c4WFldvxN7cj2Yl8+Pasb28I4AmI2/cCCltAMHcSsePXry
- 4p4Yj5PY31hbtQP7cg2Yk1IagonN2G7osDqQUhqb0+Sh3E7/WbjfWFs1Atfj
- GD6Zs2ViX3yRY+hssi4iJpRjIRuMmhach2Gn54qKMnJ+Xi5WLTn/euFQVFkG
- jg/JrcItrfj37cW1obITHR+EFzC1lUc+x7jiGOqMgWZU7o/uOYdjSzE3Ipo6
- pRtNKfXD45iB/udw9ChmFDaAHQaQUuqV2+IJ+cnlXOUjPBkRP3fYQJNSugrj
- UJ1f8dpify+ejYgNJR8pU0rdcSfuwv248TzMHcYivBURJ0sy1KeULsPtGIph
- uSe55Dwv7gheyY43tPuzSkqpG57KATioHb9xh7AYKyLiRFuNtKYO1OHudnR8
- N17FB2eacdsVIKU0pZ2cb8KHp0aF2NaeiaOlGxhxnvYPOPV0+HZEHCpFui5F
- K9Hg1Ev0yojYWuoi2RLAVsxspa1NeQqrbUs2aau0JgstbwaiLlfMmog43BlN
- YavqQEppOqb577exGmzqLKe7pEu65H8k/wCKP0Sa/7/XVgAAAABJRU5ErkJg
- gg==
 
 Package: hildon-meta-n900
 XB-Maemo-Display-Name: Maemo Leste System Packages (N900)
