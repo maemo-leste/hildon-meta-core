@@ -1,0 +1,2 @@
+hildon-core metapackage
+==================
